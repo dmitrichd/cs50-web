@@ -9,8 +9,9 @@ table {
 }
        
 @media screen and (max-width: 500px) {
-    #sddisappear {
-    display: none;
+    img {
+    max-width: 60%;
+    height: auto;
   }
 }
 
