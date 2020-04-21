@@ -7,3 +7,15 @@ table {
             border-bottom: 1px solid blue;
         }
 }
+       
+@media screen and (max-width: 500px) {
+    #sddisappear {
+    display: none;
+  }
+}
+
+@media print {
+  body {
+    color: black;
+  }
+}
