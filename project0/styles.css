@@ -1,3 +1,24 @@
+.navbar-nav {
+  background-color: #32a852;
+}
+
+.my-text-style, .signature-text {
+  font-family: "Lucida Console", Courier, monospace;
+  font-weight: bold;
+  font-size: 2vw;
+  color: #32a852;
+}
+
+.signature-text {
+  font-style: italic;
+}
+
+#avatarpic {
+  background-image: url("https://avatars3.githubusercontent.com/u/38852765?s=460&u=157f9658032207f85aed4c30616ba79787702627&v=4");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
@@ -5,7 +26,7 @@ table {
 table th, table td {
   text-align: center;
   padding: 10px;
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #32a852;
 }
 
 @media screen and (max-width: 500px) {
@@ -16,7 +37,7 @@ table th, table td {
 }
 @media print {
   body {
-    color: black;
+    color: #32a852;
   }
 }
 
