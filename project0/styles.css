@@ -13,12 +13,6 @@
   font-style: italic;
 }
 
-#avatarpic {
-  background-image: url("https://avatars3.githubusercontent.com/u/38852765?s=460&u=157f9658032207f85aed4c30616ba79787702627&v=4");
-  background-position: left;
-  background-repeat: no-repeat;
-}
-
 table {
   border-collapse: collapse;
   width: 100%;
@@ -29,12 +23,19 @@ table th, table td {
   border-bottom: 1px solid #32a852;
 }
 
-@media screen and (max-width: 500px) {
-  img {
-    max-width: 100%;
-    height: auto;
-  }
+.responsive {
+  width: 100%;
+  max-width: 250px;
+  height: auto;
 }
+
+.avatar {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
 @media print {
   body {
     color: #32a852;
