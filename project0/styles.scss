@@ -9,7 +9,7 @@ $mycolor : #32a852;
 .my-text-style {
     font-family: "Lucida Console", Courier, monospace;
     font-weight: bold;
-    font-size: 2vw;
+    font-size: 1vw;
     color: $mycolor;
 }
 
@@ -20,7 +20,7 @@ $mycolor : #32a852;
 
 #avatarpic {
     background-image: url($avatar);
-    background-position: center; 
+    background-position: left; 
     background-repeat: no-repeat;
 }
 

@@ -5,7 +5,7 @@
 .my-text-style, .signature-text {
   font-family: "Lucida Console", Courier, monospace;
   font-weight: bold;
-  font-size: 2vw;
+  font-size: 1vw;
   color: #32a852;
 }
 
@@ -15,7 +15,7 @@
 
 #avatarpic {
   background-image: url("https://avatars3.githubusercontent.com/u/38852765?s=460&u=157f9658032207f85aed4c30616ba79787702627&v=4");
-  background-position: center;
+  background-position: left;
   background-repeat: no-repeat;
 }
 
