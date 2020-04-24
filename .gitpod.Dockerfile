@@ -3,6 +3,8 @@ FROM gitpod/workspace-full:latest
 RUN sudo apt-get install wget ca-certificates
 RUN wget --quiet -O - https://www.postgresql.org/media/keys/ACCC4CF8.asc | sudo apt-key add -
 RUN sudo sh -c 'echo "deb http://apt.postgresql.org/pub/repos/apt/ `lsb_release -cs`-pgdg main" >> /etc/apt/sources.list.d/pgdg.list'
+RUN sudo apt-get update
+RUN sudo apt-get install postgresql postgresql-contrib
                     
 USER gitpod
 
